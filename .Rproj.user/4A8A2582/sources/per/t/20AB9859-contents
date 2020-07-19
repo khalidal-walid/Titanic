@@ -1,5 +1,7 @@
+install.packages("dplyr")
 library(ggplot2)
 library(plyr)
+library(dplyr)
 
 #check data
 View(titanic)
@@ -22,3 +24,14 @@ plot(s + geom_bar(stat = "count")) + xlab("Passenger Status") + ylab("Frequency"
 #create bar graph to show the number of survivor by categorize it based on passenger class
 b <- ggplot(data = titanic, aes(x = Pclass, fill = Survived))
 plot(b + geom_bar(stat = "count")) + xlab("Passenger Class") + ylab("Frequency")
+
+titanic$Age_Grp <- titanic$Age %>%
+  with(titanic$Age_Grp, ifelse(age <= 18, "Baby",
+                       ifelse("Adult")))
+
+
+transaction$time_dimension <- with(transaction,  ifelse(hour >= 5 & hour<=11, "Morning",
+                                                        ifelse(hour>11 & hour<=18, "Afternoon", "Night")))
+
+
+
