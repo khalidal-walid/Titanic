@@ -12,15 +12,15 @@
     "path" : null,
     "project_path" : null,
     "properties" : {
-        "cacheKey" : "3A5EBE14",
+        "cacheKey" : "9ACB2604",
         "caption" : "titanic",
-        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=titanic&cache_key=3A5EBE14",
-        "displayedObservations" : 891,
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=titanic&cache_key=9ACB2604",
+        "displayedObservations" : "891",
         "environment" : "",
         "object" : "titanic",
-        "preview" : 0,
-        "totalObservations" : 891,
-        "variables" : 12
+        "preview" : "0",
+        "totalObservations" : "891",
+        "variables" : "13"
     },
     "relative_order" : 2,
     "source_on_save" : false,
