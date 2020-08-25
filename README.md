@@ -16,5 +16,5 @@ I want to make an analysis regarding the survivor from Titanic incident.
 ### The number of survivor and deceased based on age group.
 ![Age](Age.png)
 
-## **Disclaimer**
-I am sorry because I forgot where I get this dataset. If by accident the owner see this, you can contact me directly. 
+## **Dataset**
+https://www.kaggle.com/c/titanic/data 
