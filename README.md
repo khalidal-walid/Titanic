@@ -8,13 +8,13 @@ I want to make an analysis regarding the survivor from Titanic incident.
 
 ## **Findings**
 ### The number of survivor and deceased generally.
-![General](General.png)
+![General](./images/General.png)
 
 ### The number of survivor and deceased based on passenger class.
-![PassengerClass](passengerClass.png)
+![PassengerClass](./images/passengerClass.png)
 
 ### The number of survivor and deceased based on age group.
-![Age](Age.png)
+![Age](./images/Age.png)
 
 ## **Disclaimer**
-I am sorry because I forgot where I get this dataset. If by accident the owner see this, you can contact me directly. 
+https://www.kaggle.com/c/titanic/data 
